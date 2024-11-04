@@ -3,7 +3,7 @@ import { Account, Pubkey, Result, i64, u8, Signer } from "@solanaturbine/poseido
 // creating a class VoteProgram is similar to creating a creating a mod in anchor with all the instructions inside
 export default class VoteProgram {
 
-    // define the progam id as a static constant like bellow
+    // define the progam id as a static constant like below
     static PROGRAM_ID = new Pubkey("HC2oqz2p6DEWfrahenqdq2moUcga9c9biqRBcdK3XKU1");
 
     // we can pass in standard Accounts(Signer, TokenAccount, Mint, UncheckedAccount and so on), Custom Accounts(state in this case) and IX arguements(hash in this case) as parameters.
